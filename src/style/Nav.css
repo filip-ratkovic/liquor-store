@@ -1,0 +1,36 @@
+:root {
+    --white:#fff;
+    --black:#292929;
+    --background:#efefef;
+    --gold:#d9b36a;
+    --grey:#cecccd;
+    --grey2:#797577;
+
+  }
+
+
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+  }
+  .nav-links a{
+    text-decoration: none;
+    color: var(--black);
+    padding: 0 20px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .nav-links a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 7px;
+    text-decoration-color: var(--gold);
+    color: var(--grey2);
+    font-size: 17px;
+  }
+
+  .nav-logo img{
+    width: 150px;  }
