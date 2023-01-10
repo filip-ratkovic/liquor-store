@@ -6,7 +6,6 @@ import logo from '../slike/logo.png'
 function Nav() {
   return (
     <nav className="nav">
-
       <div className="nav-logo">
       <img src={logo} alt="logo" />
       </div>
@@ -18,7 +17,6 @@ function Nav() {
       <Link to="/onama">O nama</Link>
       <Link to="/kontakt">Kontakt</Link>
       </div>
-
     </nav>
   )
 }

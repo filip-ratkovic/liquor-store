@@ -1,6 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import './style/Nav.css';
+import './style/Pocetna.css';
+
 // import url('https://fonts.googleapis.com/css2?family=Joan&family=Poppins:wght@100&display=swap');
 import Nav from './components/Nav';
 import Pocetna from './components/Pocetna';
